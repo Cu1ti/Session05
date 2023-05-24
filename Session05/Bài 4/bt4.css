@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 900px;
+    height: auto;
+    margin: 30px auto;
+    background-color: rgb(248, 248, 248);
+}
+header {
+    text-align: center;
+}
+header > h2 {
+    color: grey;
+    padding: 20px;
+}
+header > p {
+    font-size: 10px;
+    color: grey;
+    line-height: 1.5;
+    padding: 0px 20px 20px 20px;
+}
+article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+section {
+    width: 250px;
+    height: auto;
+    background-color: white;
+}
+article img {
+    width: 250px;
+    height: 170px;
+}
+article h4 {
+    padding: 10px;
+}
+article p {
+    padding: 10px;
+    font-size: 10px;
+    color: grey;
+}
